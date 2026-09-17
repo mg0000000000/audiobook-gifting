@@ -9,13 +9,13 @@ unclaimed.
 
 | Skill | Job |
 |---|---|
-| [`audible-book`](skills/audible-book/SKILL.md) | Send someone a book: draw the oldest usable code from the ledger, draft one email to one person. If the pool is empty, drive Audible to the gift page and let the owner press Buy. |
+| [`audible-book-gift`](skills/audible-book-gift/SKILL.md) | Send someone a book: draw the oldest usable code from the ledger, draft one email to one person. If the pool is empty, drive Audible to the gift page and let the owner press Buy. |
 | [`audible-gift-unclaimed-sync`](skills/audible-gift-unclaimed-sync/SKILL.md) | Keep the ledger honest: read Audible's gift history in the owner's browser, add unclaimed codes, mark redeemed ones. |
 
 ## Using them
 
 1. Copy the `skills/` folder into your project's `.claude/skills/`.
-2. Make a Notion database with the fields listed in `audible-book` and put
+2. Make a Notion database with the fields listed in `audible-book-gift` and put
    its URL where the files say "Put its URL here".
 3. Swap in your own sending address and Audible store.
 4. Run `audible-gift-unclaimed-sync` once across the account's full history to find any

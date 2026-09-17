@@ -29,7 +29,7 @@ the gift table.
 
 ## The ledger
 
-The same Notion database the `audible-book` skill uses. Put its URL here.
+The same Notion database the `audible-book-gift` skill uses. Put its URL here.
 
 ## Flow
 
@@ -145,4 +145,4 @@ Tell the owner:
 - **Never transcribe a claim code by hand from a blurry render** — open
   the certificate and copy the text. A wrong character is a dead code.
 - **Don't email anyone.** Sending a recovered code to a person is the
-  `audible-book` skill's job, and the owner presses send.
+  `audible-book-gift` skill's job, and the owner presses send.
