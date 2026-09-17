@@ -1,5 +1,5 @@
 ---
-name: audible-gift-sync
+name: audible-gift
 description: Sweep Audible's gift history for unclaimed gifts, pull each claim code, and sync them into the Notion Book Gift Ledger so unredeemed gifts can be reallocated instead of lost. Use when the owner asks to check or refresh the gift inventory, asks what's unclaimed or recoverable, asks to scrape or sync Audible, or wants to know how many codes are in stock before buying more. Runs in Chrome, in the owner's logged-in browser.
 ---
 
@@ -29,7 +29,7 @@ the gift table.
 
 ## The ledger
 
-The same Notion database the `client-book-gift` skill uses. Put its URL here.
+The same Notion database the `book-gift` skill uses. Put its URL here.
 
 ## Flow
 
@@ -145,4 +145,4 @@ Tell the owner:
 - **Never transcribe a claim code by hand from a blurry render** — open
   the certificate and copy the text. A wrong character is a dead code.
 - **Don't email anyone.** Sending a recovered code to a person is the
-  `client-book-gift` skill's job, and the owner presses send.
+  `book-gift` skill's job, and the owner presses send.
