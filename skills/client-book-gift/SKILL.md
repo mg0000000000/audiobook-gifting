@@ -5,11 +5,11 @@ description: Send a client or prospect an Audible audiobook by drawing a claim c
 
 # Client book gift
 
-> Shared by Matt Galt, EOS Worldwide, Sept 2026. "The owner" is whoever runs
-> the gift programme — swap in your own ledger, mailbox and Audible store.
+> "The owner" is whoever runs the gift programme — swap in your own ledger,
+> mailbox and Audible store.
 
 
-the owner sends audiobooks to clients and prospects — usually the EOS canon
+the owner sends audiobooks to clients and prospects — usually the business canon
 (*Traction*, *Good to Great*, *The Five Dysfunctions of a Team*, *The
 Four Obsessions of an Extraordinary Executive*, *Rocket Fuel*, *How to
 Be a Great Boss*).
@@ -95,7 +95,7 @@ is already accounted for and can't be handed out twice.
 
 ## 3. Draft the email
 
-Gmail, from the owner's **the owner's own** sending identity.
+Gmail, from the owner's own sending identity.
 
 **One person, one email.** A fresh message to the recipient alone — no
 reply-all, no cc, no thread. A gift goes to a person, not to a

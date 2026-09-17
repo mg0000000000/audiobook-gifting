@@ -1,13 +1,11 @@
-# EOS audiobook gifting — two Claude skills
+# Audiobook gifting — two Claude skills
 
-Two skills for running an audiobook gift programme with Claude, shared by
-Matt Galt (Certified EOS Implementer®, EOS Worldwide).
+Two skills for running an audiobook gift programme on Audible with Claude.
 
 The idea in one line: **Audible claim codes are bearer instruments.** They
 aren't tied to a name or an email, and they don't expire. So buy with credits
 when you have them, keep every code in one ledger, and reuse anything that goes
-unclaimed. A first sweep of a four-year-old account found 126 unredeemed gifts,
-every one still usable.
+unclaimed.
 
 | Skill | Job |
 |---|---|
@@ -20,6 +18,9 @@ every one still usable.
 2. Make a Notion database with the fields listed in `client-book-gift` and put
    its URL where the files say "Put its URL here".
 3. Swap in your own sending address and Audible store.
+4. Run `audible-gift-sync` once across the account's full history to find any
+   unredeemed gifts already sitting there — they go into the ledger as usable
+   stock. After that, a rescan of the last 12 months is enough.
 
 "The owner" throughout means whoever runs the programme — you.
 

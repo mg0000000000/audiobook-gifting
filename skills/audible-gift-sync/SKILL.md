@@ -5,11 +5,11 @@ description: Sweep Audible's gift history for unclaimed gifts, pull each claim c
 
 # Audible gift sync
 
-> Shared by Matt Galt, EOS Worldwide, Sept 2026. "The owner" is whoever runs
-> the gift programme — swap in your own ledger, mailbox and Audible store.
+> "The owner" is whoever runs the gift programme — swap in your own ledger,
+> mailbox and Audible store.
 
 
-Audible tracks whether each gift has been redeemed. An implementer's account has
+Audible tracks whether each gift has been redeemed. An account can have
 years of gifts that were sent and never claimed — every one is a paid
 credit sitting idle, and **every one can be reallocated to someone
 else**, because a claim code isn't bound to the person it was sent to.
@@ -133,8 +133,8 @@ Tell the owner:
 - **Truncated recipient emails.** The history column clips long
   addresses (`admin@thesu…`). **Order details** shows the full address
   if it matters; otherwise record what's visible and say it's truncated.
-- **Codes don't expire.** Gifts bought in 2022 were still redeemable in
-  2026, so an old unclaimed gift is as good as a new one. Never write
+- **Codes don't expire.** Gifts bought four years earlier were still
+  redeemable, so an old unclaimed gift is as good as a new one. Never write
   one off for age.
 
 ## Hard rules
