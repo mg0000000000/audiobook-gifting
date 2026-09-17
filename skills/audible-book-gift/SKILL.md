@@ -3,7 +3,7 @@ name: audible-book
 description: Send someone an Audible audiobook by drawing a claim code from the pool in Notion and drafting the email. Use whenever the owner says he wants to send a book to someone, names a book and a person, asks what books have gone out, asks which codes are still available or unclaimed, asks to chase an unredeemed one, or says he has just bought a book on Audible.
 ---
 
-# Audible book
+# Audible book gift
 
 > "The owner" is whoever runs the gift programme — swap in your own ledger,
 > mailbox and Audible store.
